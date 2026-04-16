@@ -1,0 +1,10 @@
+name: Releaser
+
+on:
+  pull_request:
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I am the Releaser workflow from a fork PR"
